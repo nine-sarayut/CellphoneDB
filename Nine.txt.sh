@@ -3,6 +3,7 @@ mkdir -p ~/git
 cd ~/git
 git clone git@github.com:ventolab/CellphoneDB.git
 cd CellphoneDB
+pip install -e .
 # conda create -n cpdb python=3.9.13 -y
 # conda create -n cpdb python=3.9 -y
 conda create -n cpdb python=3.8 -y
