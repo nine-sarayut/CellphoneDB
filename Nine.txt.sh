@@ -25,6 +25,7 @@ ipykernel \
 cython \
 cellphonedb
 
+pip install ktplotspy==0.1.10
 # jupyter lab build
 python -m ipykernel install --user --name 'cpdb'
 jupyter-lab --no-browser --ip 0.0.0.0
