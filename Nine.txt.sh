@@ -85,3 +85,7 @@ conda remove --name cpdb --all -y
 
 # jupyter-lab --no-browser --ip 0.0.0.0
 # jupyter-lab
+
+mkdir -p  ~/Documents/Github
+cd  ~/Documents/Github
+git clone git@github.com:nine-sarayut/ktplots.git
