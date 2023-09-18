@@ -1,4 +1,6 @@
 # wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+# https://pypi.org/project/ktplotspy/#history
+
 mkdir -p  ~/Documents/Github
 cd  ~/Documents/Github
 git clone https://github.com/ventolab/CellphoneDB
