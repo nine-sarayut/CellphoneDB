@@ -1,5 +1,5 @@
 # wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-https://github.com/Teichlab/cellphonedb
+# https://github.com/Teichlab/cellphonedb
 conda create -n cpdb3.7 python=3.7 -y
 conda activate cpdb3.7
 pip3 install cellphonedb==2.1.7
