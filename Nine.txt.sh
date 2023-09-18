@@ -1,4 +1,15 @@
 # wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+https://github.com/Teichlab/cellphonedb
+conda create -n cpdb3.7 python=3.7 -y
+conda activate cpdb3.7
+pip3 install cellphonedb==2.1.7
+cellphonedb --help
+curl https://raw.githubusercontent.com/Teichlab/cellphonedb/master/in/example_data/test_counts.txt --output test_counts.txt
+curl https://raw.githubusercontent.com/Teichlab/cellphonedb/master/in/example_data/test_meta.txt --output test_meta.txt
+cellphonedb method statistical_analysis test_meta.txt test_counts.txt
+cellphonedb plot dot_plot
+cellphonedb plot heatmap_plot test_meta.txt
+
 mkdir -p ~/git
 cd ~/git
 git clone git@github.com:ventolab/CellphoneDB.git
